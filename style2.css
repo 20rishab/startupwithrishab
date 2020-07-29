@@ -1,0 +1,43 @@
+body{
+	background-image: url(sub.jpg); 
+	background-size:cover;
+}
+
+
+h1{
+	color:black;
+	text-align:center;
+	
+	border:5px ridge rgb(205,0,112);
+	text-decoration: underline;
+	line-height:50px;
+	font-style:italic;
+	font-size:200%;
+	cursor:pointer;
+}
+h2{
+	text-decoration: underline;
+	line-height:100px;
+	font-family: 'Barlow', sans-serif;
+	font-weight:bold;
+	font-size:200%;
+	cursor:pointer;
+
+}
+.boxmodel{
+	border:5px solid red;
+	display:inline-block;
+	padding:5px 60px;
+	margin:20px 80px;
+	cursor:pointer;
+
+}
+.link{
+	color:rgb(155,155,155);
+	text-decoration: underline;
+	line-height:50px;
+	font-family: 'Barlow', sans-serif;
+	font-weight:bold;
+	font-size:200%;
+	cursor:pointer;
+}

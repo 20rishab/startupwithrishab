@@ -1,0 +1,79 @@
+body{
+	background-image: url(sub.jpg);
+	background-size: cover;
+}
+h1,h3{
+	color:black;
+	text-align:center;
+	
+	border:5px ridge rgb(205,0,112);
+	text-decoration: underline;
+	line-height:50px;
+	font-style:italic;
+	font-size:200%;
+	cursor:pointer;
+	transition: all 1s;
+}
+h4{
+	transition:all 1s;
+}
+h1:hover{
+	transform: scale(1.1);
+}
+h4:hover{
+	transform: scale(1.1);
+}
+#div1{
+	color:yellow;
+	text-decoration: underline;
+	line-height:50px;
+	font-style:italic;
+	font-size:120%;
+	font-weight:bold;
+	display:inline-block;
+	
+}
+
+.second{
+	color:grey;
+	border:5px ridge rgba(25,100,112,0.2);
+	text-decoration: underline;
+	line-height:60px;
+	font-family: 'Dancing Script', cursive;
+	font-size:150%;
+	font-weight:bold;
+	background-color: rgba(70,0,100,0.);
+
+}
+.first{
+	color: white;
+	text-decoration: underline;
+	line-height:50px;
+	font-style:"times new roman";
+	font-size:120%;
+	font-weight:bold;
+	cursor:pointer;
+}
+.active{
+color:blue;
+text-align: left;	
+}
+a:hover{
+	color:black;
+	text-decoration: underline overline;
+
+}
+img{
+	float:right;
+	transition:all 1s;
+	cursor:pointer;
+}
+img:hover{
+	transform:scale(1.1);
+}
+
+}
+h2,h5{
+	color:pink;
+}
+
